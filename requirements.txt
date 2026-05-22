@@ -1,7 +1,9 @@
+streamlit
 pandas
 numpy
 scikit-learn
 sentence-transformers
 joblib
-torch
+plotly
 transformers
+torch
