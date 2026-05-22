@@ -1,6 +1,3 @@
-# app.py
-
-```python
 import streamlit as st
 import pandas as pd
 import joblib
@@ -496,28 +493,3 @@ st.markdown("---")
 st.caption(
     "Built with AI, NLP, Machine Learning, Streamlit and Semantic Matching"
 )
-```
-
----
-
-# requirements.txt
-
-```txt
-streamlit
-pandas
-numpy
-scikit-learn
-sentence-transformers
-joblib
-plotly
-transformers
-torch
-```
-
----
-
-# Run Command
-
-```bash
-streamlit run app.py
-```
