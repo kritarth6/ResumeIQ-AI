@@ -80,6 +80,7 @@ st.markdown(
 model = joblib.load('resume_classifier.pkl')
 
 tfidf = joblib.load('tfidf_vectorizer.pkl')
+jd_df = pd.read_csv('small_job_descriptions.csv')
 
 all_jds = jd_df[
     'Job Description'
@@ -89,7 +90,7 @@ role_mapping = joblib.load('role_mapping.pkl')
 
 advanced_skills = joblib.load('skills_database.pkl')
 
-jd_df = pd.read_csv('small_job_descriptions.csv')
+
 
 embed_model = SentenceTransformer('all-MiniLM-L6-v2')
 
